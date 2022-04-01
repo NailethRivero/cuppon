@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+:root {
+    --success: #28A745;
+    --dark: #212529;
+    --grey: #707070;
+    --light: #FFFFFF7F;
+    --white: #ffffff;
+}
+
+nav,
+.form {
+    background-color: var(--success)!important;
+}
+
+.logo {
+    width: 100px;
+}
+
+.card {
+    margin: 5% auto;
+}
+
+.card-body h4 {
+    color: var(--dark);
+}
+
+.fas,
+.address,
+.fullPrice,
+footer {
+    color: var(--grey);
+}
+
+.companyName {
+    margin-bottom: 0;
+}
+
+.salesPrice {
+    color: var(--success);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fas {
+    font-size: 12px;
+}
+
+.nav-link,
+.form {
+    color: var(--white)!important;
+}
+
+.form-control-lg {
+    border-radius: 0.5rem;
+}
+
+.navbar-toggler {
+    border-color: var(--light)!important;
+}
+
+.fa-bars {
+    font-size: 40px;
+    color: var(--light)!important;
+}
+form{
+	margin: 0 auto;
+}
