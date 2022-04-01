@@ -72,3 +72,8 @@ a {
 form{
 	margin: 0 auto;
 }
+
+.price{
+    padding-bottom: 5%;
+    padding-top: 0%;
+}
